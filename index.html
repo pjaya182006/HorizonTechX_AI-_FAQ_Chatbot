@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row align-items-center g-5 py-4">
+    <div class="col-lg-6">
+        <h1 class="display-4 fw-bold lh-1 text-primary mb-3">Enterprise Autonomous FAQ Chatbot Execution Infrastructure</h1>
+        <p class="lead text-secondary">Accelerate standard business troubleshooting parameters using automated TF-IDF semantic sentence matching logic trees mapping inputs securely without compute resource bloat overhead matrices.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4">
+            <a href="{{ url_for('chatbot') }}" class="btn btn-primary btn-lg px-4 me-md-2 shadow"><i class="bi bi-chat-dots-fill me-2"></i>Enter Production Live App Sandbox</a>
+            <a href="{{ url_for('admin') }}" class="btn btn-outline-secondary btn-lg px-4">Open System Admin Monitor Workspace</a>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="card p-4 shadow-sm border border-light-subtle bg-body">
+            <h3 class="mb-3 text-secondary"><i class="bi bi-bookmark-star-fill text-warning me-2"></i>Knowledge Map Verification Indices</h3>
+            <div class="accordion accordion-flush" id="faqAccordion">
+                {% for f in faqs %}
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-transparent fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ f.id }}">
+                            {{ f.question }}
+                        </button>
+                    </h2>
+                    <div id="collapse-{{ f.id }}" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-secondary">{{ f.answer }}</div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

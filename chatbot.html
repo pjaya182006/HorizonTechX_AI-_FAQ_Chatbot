@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-10 col-xl-8">
+        <div class="chatbot-container">
+            <!-- Header Window Segment Configuration Module Bar Elements Structure Space Display Matrix Layout System Component -->
+            <div class="bg-primary text-white p-3 d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center gap-3">
+                    <div class="bg-white rounded-circle text-primary d-flex align-items-center justify-content-center shadow-sm" style="width: 45px; height: 45px;">
+                        <i class="bi bi-cpu-fill fs-3"></i>
+                    </div>
+                    <div>
+                        <h5 class="m-0 fw-bold">FAQ Core Automated Assistant</h5>
+                        <small class="text-white-50"><i class="bi bi-circle-fill text-success small me-1"></i>Semantic Parsing Engine Active</small>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="form-check form-switch m-0 text-white-50 small">
+                        <input class="form-check-input" type="checkbox" role="switch" id="tts-toggle">
+                        <label class="form-check-label text-white small" for="tts-toggle">TTS Audio Engine</label>
+                    </div>
+                    <a href="{{ url_for('export_csv') }}" class="btn btn-sm btn-light" title="Export historical records packet stream list file context setup array configuration structural ledger framework system"><i class="bi bi-file-earmark-arrow-down-fill text-primary"></i></a>
+                </div>
+            </div>
+
+            <!-- Main Interactive Conversational Frame Elements Layout Mapping Block Root Container View Box Frame Element -->
+            <div id="chat-window" class="chat-window">
+                <div class="message-bubble bot">
+                    <div class="message-text">System telemetry handshakes completed securely. Hello! Welcome into our enterprise FAQ SaaS engine execution portal environment workspace. Ask me any parameter question!</div>
+                    <div class="message-meta">Initialization Phase Completed. <i class="bi bi-check2-all text-info"></i></div>
+                </div>
+            </div>
+
+            <!-- Operations Data Controls Entry Input Frame Matrix Section Components Block Controls Assembly Module Space -->
+            <div class="p-3 bg-light border-top">
+                <form id="chat-form">
+                    <div class="input-group">
+                        <input type="text" id="chat-input" class="form-control py-2 shadow-none border-secondary-subtle" placeholder="Enter transaction command or faq search query target..." autocomplete="off" required>
+                        <button class="btn btn-primary px-4 shadow-sm" type="submit"><i class="bi bi-send-fill"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

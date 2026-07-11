@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "question": "What is AI?",
+    "answer": "Artificial Intelligence is the simulation of human intelligence by machines."
+  },
+  {
+    "id": 2,
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning is a branch of AI that enables computers to learn from data."
+  },
+  {
+    "id": 3,
+    "question": "What is Python?",
+    "answer": "Python is a popular programming language used for AI, web development, and data science."
+  },
+  {
+    "id": 4,
+    "question": "What is Flask?",
+    "answer": "Flask is a lightweight Python web framework used to build web applications."
+  },
+  {
+    "id": 5,
+    "question": "What is Data Science?",
+    "answer": "Data Science is the process of analyzing data to discover useful insights."
+  },
+  {
+    "id": 6,
+    "question": "What is SQL?",
+    "answer": "SQL is a language used to manage and query databases."
+  },
+  {
+    "id": 7,
+    "question": "What is HTML?",
+    "answer": "HTML is the standard language used to create web pages."
+  },
+  {
+    "id": 8,
+    "question": "What is CSS?",
+    "answer": "CSS is used to style HTML web pages."
+  },
+  {
+    "id": 9,
+    "question": "What is JavaScript?",
+    "answer": "JavaScript adds interactivity to web pages."
+  },
+  {
+    "id": 10,
+    "question": "What is a chatbot?",
+    "answer": "A chatbot is a program that communicates with users through text or voice."
+  },
+  {
+    "id": 11,
+    "question": "Who is the Prime Minister of India?",
+    "answer": "The Prime Minister of India is Narendra Modi."
+  },
+  {
+    "id": 12,
+    "question": "What is the capital of India?",
+    "answer": "The capital of India is New Delhi."
+  },
+  {
+    "id": 13,
+    "question": "What is the capital of Andhra Pradesh?",
+    "answer": "Amaravati is the capital of Andhra Pradesh."
+  },
+  {
+    "id": 14,
+    "question": "Who developed Python?",
+    "answer": "Python was created by Guido van Rossum."
+  },
+  {
+    "id": 15,
+    "question": "What is NumPy?",
+    "answer": "NumPy is a Python library used for numerical computing."
+  },
+  {
+    "id": 16,
+    "question": "What is Pandas?",
+    "answer": "Pandas is a Python library used for data analysis."
+  },
+  {
+    "id": 17,
+    "question": "What is Matplotlib?",
+    "answer": "Matplotlib is a Python library for creating charts and graphs."
+  },
+  {
+    "id": 18,
+    "question": "What is OpenCV?",
+    "answer": "OpenCV is a library used for computer vision applications."
+  },
+  {
+    "id": 19,
+    "question": "What is NLP?",
+    "answer": "Natural Language Processing enables computers to understand human language."
+  },
+  {
+    "id": 20,
+    "question": "What is Deep Learning?",
+    "answer": "Deep Learning is a subset of Machine Learning based on neural networks."
+  },
+  {
+    "id": 21,
+    "question": "What is Git?",
+    "answer": "Git is a version control system used to manage source code."
+  },
+  {
+    "id": 22,
+    "question": "What is GitHub?",
+    "answer": "GitHub is a platform for hosting and sharing Git repositories."
+  },
+  {
+    "id": 23,
+    "question": "What is SQLite?",
+    "answer": "SQLite is a lightweight relational database."
+  },
+  {
+    "id": 24,
+    "question": "What is Bootstrap?",
+    "answer": "Bootstrap is a CSS framework used to create responsive websites."
+  },
+  {
+    "id": 25,
+    "question": "What is an API?",
+    "answer": "An API allows different software applications to communicate with each other."
+  },
+  {
+    "id": 26,
+    "question": "What is JSON?",
+    "answer": "JSON is a lightweight format used to store and exchange data."
+  },
+  {
+    "id": 27,
+    "question": "What is a database?",
+    "answer": "A database is an organized collection of data."
+  },
+  {
+    "id": 28,
+    "question": "What is cloud computing?",
+    "answer": "Cloud computing provides computing services over the internet."
+  },
+  {
+    "id": 29,
+    "question": "Hello",
+    "answer": "Hello! How can I help you today?"
+  },
+  {
+    "id": 30,
+    "question": "Thank you",
+    "answer": "You're welcome! Have a great day."
+  }
+]
